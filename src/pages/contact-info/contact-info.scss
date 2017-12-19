@@ -1,0 +1,31 @@
+page-contact-info {
+
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 68%;
+          font-size: 2.0em;
+          //width: 43%;
+          left: 5%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute;
+          top: 84%;
+          //width: 51%;
+          left: 5%;
+          color: #fff;
+        }
+      
+      }
+
+}

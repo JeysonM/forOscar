@@ -1,0 +1,12 @@
+<!-- Generated template for the StatusListComponent component -->
+<ion-list *ngFor="let status of statusList">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="{{status.image}}">
+      </ion-avatar>
+      <h2>{{status.contact.name}}</h2>
+      <p>{{status.text}}</p>
+      <ion-note item-end>3:43 pm</ion-note>
+    </ion-item>
+
+</ion-list>
